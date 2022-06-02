@@ -23,6 +23,7 @@ TASKS = [
     },
 ]
 
+
 @app.get("/tasks")
 def list():
     return TASKS
